@@ -14,8 +14,12 @@
     <script src="js/init.js"></script>
   </head>
   <body>
-    <h1>Autenticación</h1>
     <h1>Sesión</h1>
+    <nav id="menu">
+        <a href="">Sesion</a>
+        <a href="chat.html">Chat</a>
+        <a href="alumno.html">Alumno</a>
+    </nav>
     <fieldset>
       <legend>Email</legend>
       <output id="email"><progress max="100">Cargando…</progress></output>
@@ -26,7 +30,7 @@
     </fieldset>
     <figure><img id="avatar" alt="Avatar"></figure>
     <button type="button" onclick="terminaSesión()">Terminar Sesión</button>
-    <footer>Copyright &copy; 2021 Ricardo Armando Machorro Reyes.</footer>
+    
     <script>
       //@ts-check
       /** Conexión al sistema de autenticación de Firebase. */
